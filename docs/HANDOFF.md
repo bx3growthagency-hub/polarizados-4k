@@ -23,6 +23,7 @@ Este repo reemplaza a la carpeta `Polarizados 4k/` que vivía dentro del repo ge
 - Assets organizados: logos y badges de marca en `public/assets/`, 22 fotos sin curar en `public/assets/photos-raw/`, material pesado (2 PDFs + 1 video, ~309MB) en `references/` (fuera de git, ver sección 6).
 - Modelo de datos inicial en `src/data/*.json` (contacto, productos, proyectos, FAQ), con cada dato marcado `confirmed_repeated`, `pending_validation` o `not_available` según los documentos maestros — **nada inventado**.
 - `CLAUDE.md` con las reglas permanentes del repo.
+- Skills de diseño/frontend instaladas y versionadas en `.claude/skills/` (frontend-design, web-design-guidelines, design-taste-frontend, apple-design, emil-design-eng, pick-ui-library) — quedan disponibles automáticamente al clonar, no requieren instalación aparte. Detalle en `CLAUDE.md`.
 
 ## 3. En progreso
 

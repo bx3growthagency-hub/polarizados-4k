@@ -33,6 +33,17 @@ No agregar nada de la lista de "fuera de alcance" sin que Leandro lo apruebe exp
 - Mobile-first. Ningún componente se da por terminado si solo se probó en desktop.
 - Rendimiento: imágenes en WebP, lazy loading, evitar JS innecesario. Las fotos en `public/assets/photos-raw/` son originales sin optimizar — no usarlas directo en producción, hay que procesarlas primero.
 
+## Skills instaladas en el proyecto
+
+`.claude/skills/` trae skills de diseño/frontend ya instaladas y versionadas en el repo (viajan con el `git clone`, no hace falta reinstalarlas):
+
+- `frontend-design` (Anthropic) — evitar que el sitio se vea genérico/IA.
+- `web-design-guidelines` (Vercel) — buenas prácticas de diseño web.
+- `design-taste-frontend`, `apple-design`, `emil-design-eng` — criterio de diseño premium/minimalista, coherente con la dirección visual ya definida en `src/styles/tokens.css`.
+- `pick-ui-library` — para decidir con criterio si en algún punto hace falta una librería de UI (hoy la decisión es no usar ninguna).
+
+Se instalaron con `npx skills add <repo> --skill <nombre> -a claude-code --copy`, deliberadamente sin animaciones/toasts/DB (no aplican al alcance de Fase 1). `skills-lock.json` en la raíz registra el origen de cada una.
+
 ## Comandos
 
 ```bash
