@@ -1,0 +1,42 @@
+{
+  "_readme": "Preguntas sugeridas en docs/Contexto_maestro_web_Polarizados_4K_2026-08-20.md sección 15.3. Respuestas sin redactar — requieren fichas técnicas y datos legales verificados antes de publicarse (no inventar porcentajes ni afirmaciones de legalidad).",
+  "faqs": [
+    {
+      "question": "¿Cuál es la diferencia entre los distintos tipos de polarizado?",
+      "answer": null,
+      "status": "pending_content"
+    },
+    {
+      "question": "¿Qué garantía incluye cada referencia?",
+      "answer": null,
+      "status": "pending_validation"
+    },
+    {
+      "question": "¿Cuánto tarda la instalación?",
+      "answer": null,
+      "status": "not_available"
+    },
+    {
+      "question": "¿Cuándo se pueden bajar los vidrios después de instalar el polarizado?",
+      "answer": null,
+      "status": "pending_content"
+    },
+    {
+      "question": "¿Qué protege el PPF?",
+      "answer": null,
+      "status": "pending_content"
+    },
+    {
+      "question": "¿Cuál es la diferencia entre Ceramic IR y un recubrimiento cerámico?",
+      "answer": null,
+      "status": "pending_content",
+      "note": "No confundir 3M Ceramic IR (película polarizada) con un recubrimiento cerámico para pintura — aclarado en docs sección 9."
+    },
+    {
+      "question": "¿Qué niveles de polarizado son legales?",
+      "answer": null,
+      "status": "not_available",
+      "note": "Solo publicar con información jurídica vigente y verificada. No inventar porcentajes ni afirmar legalidad universal."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "_readme": "Cada campo tiene un status: 'confirmed_repeated' (dato consistente en varias fuentes), 'pending_validation' (usado en campañas pero sin confirmar), o 'not_available' (no existe en la memoria del proyecto, no inventar). Ver docs/CONTEXTO_MAESTRO_POLARIZADOS_4K.md sección 3 y 23.",
+  "businessName": {
+    "value": "Polarizados 4K",
+    "status": "confirmed_repeated",
+    "note": "Nunca escribir '4K Polarizados'."
+  },
+  "city": {
+    "value": "Barranquilla, Colombia",
+    "status": "confirmed_repeated"
+  },
+  "address": {
+    "value": "Cra. 44 #76-218, Barranquilla",
+    "status": "pending_validation",
+    "note": "Existe una dirección alternativa registrada (Cra. 43 #76-64) en una conversación del 2026-07-06. No está claro si es mudanza, segunda sede o error. Confirmar con el cliente antes de publicar."
+  },
+  "whatsapp": {
+    "value": "318 683 4602",
+    "status": "pending_validation",
+    "note": "Existe un número alternativo registrado (300 806 8348). Confirmar cuál es el vigente antes de publicar."
+  },
+  "instagram": {
+    "value": "@polarizados4k",
+    "status": "confirmed_repeated"
+  },
+  "email": {
+    "value": null,
+    "status": "not_available"
+  },
+  "hours": {
+    "value": null,
+    "status": "not_available"
+  },
+  "facebook": {
+    "value": null,
+    "status": "not_available"
+  },
+  "tiktok": {
+    "value": null,
+    "status": "not_available"
+  },
+  "googleMapsUrl": {
+    "value": null,
+    "status": "not_available"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "_readme": "Casos reales mencionados en los docs maestros (sección 14 / 15.5). Faltan fotos curadas asociadas a cada caso — seleccionar desde public/assets/photos-raw/ en Fase 1. No agregar testimonios ni cifras de clientes atendidos: no están confirmados.",
+  "projects": [
+    {
+      "id": "tesla-model-y",
+      "vehicle": "Tesla Model Y",
+      "service": "3M Ceramic IR (incluyendo techo)",
+      "note": "No confirmar cifra de Teslas atendidos. Existió una promoción histórica de PPF gratis para pantalla — vigencia sin confirmar, no publicar como activa.",
+      "photo": null
+    },
+    {
+      "id": "mazda-cx5",
+      "vehicle": "Mazda CX-5",
+      "service": "3M Ceramic IR + PPF (faros, retrovisores, manijas, bordes, posapiés, piano black, baúl)",
+      "note": "Caso con entrega de certificado documentada.",
+      "photo": null
+    },
+    {
+      "id": "renault-clio-2008",
+      "vehicle": "Renault Clio 2008",
+      "service": "3M Ceramic IR",
+      "note": "Caso usado para mostrar que la protección no depende del valor comercial del vehículo.",
+      "photo": null
+    },
+    {
+      "id": "audi-sq5-sportback",
+      "vehicle": "Audi SQ5 Sportback",
+      "service": "Full PPF",
+      "photo": null
+    },
+    {
+      "id": "renault-koleos",
+      "vehicle": "Renault Koleos",
+      "service": "PPF",
+      "photo": null
+    },
+    {
+      "id": "mazda-3-grand-touring",
+      "vehicle": "Mazda 3 Grand Touring",
+      "service": "PPF",
+      "photo": null
+    }
+  ]
+}

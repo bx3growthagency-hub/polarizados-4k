@@ -1,0 +1,28 @@
+/*
+  Design tokens — Polarizados 4K
+  Fuente: paleta muestreada del logo real (`public/assets/logos/logo-4k-completo.png`)
+  y de la foto de fachada (`public/assets/photos-raw/fachada.jpg`).
+  Ver docs/HANDOFF.md — el rojo es aproximado, falta samplear el hex exacto
+  del PNG en alta resolución antes de darlo por definitivo.
+*/
+
+:root {
+  /* Base oscura, tomada de la identidad real del local (grafito/negro) */
+  --color-black: #070809;
+  --color-graphite: #111317;
+  --color-graphite-soft: #1a1d22;
+  --color-white: #f5f7fa;
+  --color-gray: #9ba1aa;
+  --color-border: rgba(255, 255, 255, 0.1);
+
+  /* Acento: rojo del isotipo real de Polarizados 4K (aprox., confirmar hex exacto) */
+  --color-accent: #e5231c;
+  --color-accent-dark: #b81913;
+
+  /* Tipografía sugerida en los docs maestros */
+  --font-heading: "Space Grotesk", "Inter", system-ui, sans-serif;
+  --font-body: "Inter", "Manrope", system-ui, sans-serif;
+
+  --radius-base: 12px;
+  --spacing-unit: 8px;
+}

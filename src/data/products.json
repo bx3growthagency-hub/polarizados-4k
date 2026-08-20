@@ -1,0 +1,68 @@
+{
+  "_readme": "Catálogo base para las páginas de servicio (Fase 1, sin simulador). Precios deliberadamente en null: los documentos maestros registran valores con inconsistencias internas y advierten explícitamente no publicarlos como vigentes sin aprobación final del cliente (ver docs/CONTEXTO_MAESTRO_POLARIZADOS_4K.md sección 7 y 21). Usar 'Cotiza tu vehículo por WhatsApp' en vez de precio fijo hasta tener luz verde. BlackFlint/Black Film se excluye del catálogo hasta resolver el nombre comercial correcto.",
+  "polarizados": [
+    {
+      "id": "3m-ceramic-ir",
+      "brand": "3M",
+      "name": "Ceramic IR",
+      "category": "ceramic",
+      "warrantyYears": null,
+      "warrantyNote": "Se han registrado 10 años en una tabla comercial y '5, 8 o 10 años' en un guion anterior. Confirmar antes de publicar.",
+      "price": null,
+      "status": "pending_validation"
+    },
+    {
+      "id": "3m-color-stable",
+      "brand": "3M",
+      "name": "Color Stable",
+      "category": "dyed",
+      "warrantyYears": null,
+      "price": null,
+      "status": "pending_validation"
+    },
+    {
+      "id": "3m-crystalline-75",
+      "brand": "3M",
+      "name": "Crystalline 75%",
+      "category": "premium",
+      "warrantyYears": null,
+      "price": null,
+      "status": "pending_validation"
+    },
+    {
+      "id": "spectra-hd-ir-plus",
+      "brand": "Spectra",
+      "name": "HD IR Plus",
+      "category": "ceramic",
+      "warrantyYears": null,
+      "warrantyNote": "Registrado hasta 12 años en una fuente. Confirmar denominación comercial exacta ('Spectra HD IR Plus' vs 'HD Spectra').",
+      "price": null,
+      "status": "pending_validation"
+    }
+  ],
+  "ceramicos": [
+    {
+      "id": "dimension-uv",
+      "brand": null,
+      "name": "Dimension UV",
+      "warrantyYears": 5,
+      "warrantyNote": "Garantía registrada pero marca fabricante y cobertura exacta sin confirmar.",
+      "price": null,
+      "status": "pending_validation"
+    },
+    {
+      "id": "7h",
+      "brand": null,
+      "name": "7H",
+      "warrantyYears": 3,
+      "price": null,
+      "status": "pending_validation"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "blackflint-or-black-film",
+      "reason": "Nombre comercial sin resolver entre 'BlackFlint' y 'Black Film'. No incluir en el sitio hasta que el cliente confirme cuál usar."
+    }
+  ]
+}
