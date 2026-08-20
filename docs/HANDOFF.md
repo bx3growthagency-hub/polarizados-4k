@@ -58,7 +58,7 @@ Lista completa en `docs/CONTEXTO_MAESTRO_POLARIZADOS_4K.md` sección 23 (28 íte
 ## 7. Cómo clonar y ejecutar (Hurtado, desde Colombia)
 
 ```bash
-git clone <url-del-repo>          # pedir la URL/acceso a Leandro
+git clone https://github.com/bx3growthagency-hub/polarizados-4k.git
 cd polarizados-4k
 npm install
 npm run dev                        # http://localhost:5173

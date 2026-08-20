@@ -11,7 +11,7 @@ React + TypeScript + Vite, exportado como sitio estático. Sin backend, sin CMS,
 ## Cómo clonar y correr
 
 ```bash
-git clone <url-del-repo>
+git clone https://github.com/bx3growthagency-hub/polarizados-4k.git
 cd polarizados-4k
 npm install
 npm run dev
